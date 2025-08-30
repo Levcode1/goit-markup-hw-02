@@ -1,5 +1,7 @@
 body { 
     font-family: "Roboto", sans-serif; 
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -12,6 +14,10 @@ a {
 
 button {
     cursor: pointer;
+}
+
+address {
+    font-style: normal;
 }
 
 .visually-hidden {
@@ -39,16 +45,14 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
-
+    color: #4d5ae5;
 }
 
-.header-logo-pur {
-    color: #4d5ae5;
-
+.header-logo-white {
+    color: #2e2f42;
 }
 
 .header-menu-list { 
@@ -124,12 +128,13 @@ button {
     color: #2e2f42;
 
 }
-.feature-description {
+.feature-position {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 .hero { 
     background-color: #2e2f42;
 }
@@ -161,6 +166,11 @@ button {
 .hero-button:hover {
     background-color: #404bbf;
 }
+
+.hero-button:focus {
+    background-color: #404bbf;
+}
+
 .team {
     background-color: #f4f4fd;
 
@@ -197,6 +207,50 @@ button {
     
 }
 
+.portfolio {
+
+
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize
+
+}
+
+.portfolio-list { 
+
+}
+
+.portfolio-item {
+
+}
+
+.portfolio-image {
+
+}
+
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.portfolio-position { 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 .footer {
     background-color: #2e2f42;
 }  
@@ -205,15 +259,14 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
-
+    color: #4d5ae5;
 }
 
-.footer-logo-pur {
-    color: #4d5ae5;
+.footer-logo-white {
+    color: #f4f4fd;
 }
 
 .footer-description {
