@@ -21,13 +21,8 @@ address {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -128,7 +123,7 @@ address {
     color: #2e2f42;
 
 }
-.feature-position {
+.features-position {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -172,7 +167,18 @@ address {
 }
 
 .team {
-    background-color: #f4f4fd;
+    background-color: #FFFFFF;
+
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
 
 }
 
@@ -219,7 +225,7 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
 
 }
 
