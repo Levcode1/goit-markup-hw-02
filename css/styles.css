@@ -20,15 +20,6 @@ address {
     font-style: normal;
 }
 
-.visually-hidden {
-    margin: -1px;
-    border: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 .header {
 
 }
@@ -155,7 +146,6 @@ address {
     width: 169px;
     height: 56px;
     background-color: #4d5ae5;
-
 }
 
 .hero-button:hover {
@@ -167,8 +157,7 @@ address {
 }
 
 .team {
-    background-color: #FFFFFF;
-
+    background-color: #F4F4FD
 }
 
 .team-title {
@@ -179,11 +168,10 @@ address {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-
 }
 
 .team-list {
-
+    background-color: #FFFFFF
 }
 
 .team-item {
@@ -197,7 +185,6 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-
 }
 
 .team-position { 
